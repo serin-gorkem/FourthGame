@@ -1,0 +1,502 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1642964580288919, "dur":5693, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964580294615, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1642964580294660, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1642964580294672, "dur":530, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1642964580295268, "dur":481, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964580295749, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444588, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444740, "dur":133, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444873, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444904, "dur":52, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444956, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444960, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444970, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444972, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444979, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444981, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444991, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581444993, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445017, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445019, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445026, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445028, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445036, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445037, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445044, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445046, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445053, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445055, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445063, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445064, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445072, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445094, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581445107, "dur":1604, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1642964580295371, "dur":433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580295804, "dur":3526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580299337, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1642964580299515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580300864, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1642964580304225, "dur":10455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1642964580314683, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580314703, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1642964580315661, "dur":18057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1642964580333723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580333731, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1642964580335898, "dur":31179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580367080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580367086, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580369634, "dur":21618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580391258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580391268, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580392171, "dur":25816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580417991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580418000, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580418834, "dur":45240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580464080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580464090, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580465300, "dur":167937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580633240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580633248, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580636776, "dur":72341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580709121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580709130, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580710229, "dur":53815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580764050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580764060, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580768414, "dur":81758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580850176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580850184, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580853307, "dur":36212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580889525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964580889535, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964580890718, "dur":114900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964581005625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964581005635, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964581006713, "dur":155239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964581161957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964581161965, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642964581163464, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1642964581163500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964581163504, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1642964581167796, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1642964581167833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964581167839, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1642964581170208, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1642964581170246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642964581170252, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1642964581171425, "dur":273159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580296054, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580296054, "dur":3278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580299337, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1642964580299524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580309467, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1642964580312093, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1642964580312244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580312250, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1642964580315474, "dur":476983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642964580792463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580792472, "dur":33600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642964580826102, "dur":123601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642964580949706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964580949714, "dur":12542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642964580962292, "dur":231198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642964581193495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642964581193504, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642964581197703, "dur":246952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580295658, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580295904, "dur":3477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580299381, "dur":17634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642964580317018, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580317047, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642964580320551, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1642964580320689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580320734, "dur":27977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1642964580348754, "dur":37741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580386500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580386510, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580389123, "dur":29977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580419162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580419277, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580420774, "dur":50767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580471547, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580471559, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580473813, "dur":31916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580505815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580505825, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580510712, "dur":60990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580571709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580571720, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580573010, "dur":41481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580614497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580614508, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580617026, "dur":52308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580669338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580669346, "dur":10224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580679612, "dur":60758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580740375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580740384, "dur":7151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580747570, "dur":100001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580847575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964580847582, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964580849123, "dur":291414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964581140543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581140553, "dur":14306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642964581154898, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642964581154935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581154939, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642964581156000, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1642964581156035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581156040, "dur":4848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1642964581160922, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1642964581161018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581161039, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1642964581163432, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642964581163474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581163479, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642964581167969, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1642964581168010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581168016, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1642964581168975, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642964581169011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581169017, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642964581170479, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1642964581170644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642964581170649, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1642964581171963, "dur":272704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580295515, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580295853, "dur":3480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580299338, "dur":14119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1642964580313461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580313475, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1642964580314305, "dur":145035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580459347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580459356, "dur":7835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580467237, "dur":27500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580494752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580494761, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580495864, "dur":88206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580584076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580584085, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580585963, "dur":14244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580600213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580600222, "dur":15441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580615704, "dur":81837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580697545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580697553, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580699240, "dur":35976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580735222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580735232, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580738874, "dur":102263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580841144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580841155, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580842633, "dur":106759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580949398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964580949408, "dur":12255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964580961702, "dur":208779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964581170484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642964581170491, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642964581172089, "dur":272497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580295796, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580295797, "dur":3528, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580299337, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1642964580299340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580301090, "dur":466, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1642964580301559, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1642964580301620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580301675, "dur":6467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1642964580308145, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1642964580308263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580308322, "dur":3532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1642964580311896, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1642964580312018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580312027, "dur":328079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1642964580640171, "dur":48724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580688900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580688911, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580694442, "dur":41316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580735761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580735768, "dur":11087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580746900, "dur":95882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580842785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580842792, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580844697, "dur":102485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580947188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964580947198, "dur":22612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964580970010, "dur":316016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964581286059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642964581286069, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642964581289589, "dur":155000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580295940, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580295940, "dur":3391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580299337, "dur":17670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1642964580317012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580317028, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1642964580317926, "dur":49107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush.exe" }}
+,{ "pid":12345, "tid":6, "ts":1642964580367039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580367048, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush.exe" }}
+,{ "pid":12345, "tid":6, "ts":1642964580369934, "dur":43370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580413310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580413320, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580415767, "dur":21067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580436840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580436850, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580438238, "dur":57029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580495271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580495279, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580496238, "dur":55878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580552122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580552133, "dur":13206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580565381, "dur":28314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580593700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580593710, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580594551, "dur":36332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580630887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580630895, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580633255, "dur":31211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580664472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580664483, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580666096, "dur":40133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580706234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580706246, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580708123, "dur":57819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580765970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580765980, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580768858, "dur":72476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580841339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964580841346, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964580842573, "dur":163777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964581006379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964581006388, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964581007438, "dur":104102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964581111546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964581111556, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964581113685, "dur":79957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964581193645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642964581193653, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642964581194902, "dur":249694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580296126, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580296127, "dur":3247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580299375, "dur":12897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1642964580312275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580312282, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1642964580313052, "dur":62384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580375442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580375519, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580376850, "dur":38447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580415303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580415313, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580416427, "dur":73345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580489854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580489862, "dur":7506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580497405, "dur":25363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580522776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580522787, "dur":6385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580529219, "dur":44757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580573980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580573989, "dur":5434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580579468, "dur":43381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580622855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580622866, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580626129, "dur":44109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580670242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580670404, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580674567, "dur":22118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580696691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580696701, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580697656, "dur":35494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580733154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580733161, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580736861, "dur":29691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580766556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580766564, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580768121, "dur":83560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580851685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580851735, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580853007, "dur":115406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580968419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964580968429, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964580970133, "dur":97766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964581067905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964581067943, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964581068999, "dur":241483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964581310487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642964581310496, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642964581311635, "dur":133016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580296216, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580296216, "dur":3113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580299337, "dur":40821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1642964580340164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580340242, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1642964580340979, "dur":40264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580381249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580381258, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580385902, "dur":30617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580416522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580416529, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580417608, "dur":73386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580491000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580491008, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580491810, "dur":55452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580547268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580547277, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580548929, "dur":41429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580590391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580590400, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580591355, "dur":38595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580629956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580629966, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580631292, "dur":35699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580666995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580667004, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580668569, "dur":32320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580700894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580700903, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580705366, "dur":44541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580749912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580749922, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580751694, "dur":90772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580842469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580842476, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580844551, "dur":82835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580927391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964580927401, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964580931076, "dur":93329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964581024411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964581024421, "dur":34923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964581059385, "dur":77079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964581136471, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964581136482, "dur":18226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642964581154746, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1642964581154784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964581154791, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1642964581155877, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642964581155943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642964581155949, "dur":35620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642964581191606, "dur":253038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964580296282, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964580296283, "dur":3098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964580299382, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1642964580300399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964580300774, "dur":342801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1642964580643732, "dur":68253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642964580711991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964580712003, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642964580715249, "dur":126819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642964580842072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964580842079, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642964580843083, "dur":331866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642964581174954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642964581174962, "dur":5852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642964581180853, "dur":263792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580296353, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580296353, "dur":2989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580299342, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1642964580299520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580308993, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1642964580312352, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1642964580312440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580312446, "dur":16287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1642964580328772, "dur":24303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580353097, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580353191, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580354542, "dur":50000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580404550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580404561, "dur":8827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580413426, "dur":34802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580448235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580448246, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580450426, "dur":165033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580615463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580615472, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580617822, "dur":23312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580641138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580641148, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580642039, "dur":93312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580735355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580735363, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580738977, "dur":107543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580846525, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580846536, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580849169, "dur":122630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580971804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964580971814, "dur":5535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964580977386, "dur":231811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964581209203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642964581209213, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642964581212928, "dur":231725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580296420, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580296420, "dur":2955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580299375, "dur":1029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1642964580300407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580300758, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1642964580304221, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1642964580304402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580304474, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1642964580308217, "dur":12695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1642964580320915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580320923, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1642964580321774, "dur":51296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580373076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580373395, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580377488, "dur":111960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580489454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580489739, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580491294, "dur":71005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580562305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580562316, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580565644, "dur":35564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580601213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580601220, "dur":17577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580618862, "dur":76128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580694993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580695002, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580700122, "dur":146398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580846526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580846536, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580848521, "dur":143931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964580992458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964580992468, "dur":8597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964581001123, "dur":149486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964581150662, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581150674, "dur":4029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642964581154743, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1642964581154783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581154791, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1642964581155981, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1642964581156017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581156022, "dur":3119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1642964581159180, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1642964581159218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581159226, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1642964581160466, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1642964581160556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581160563, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1642964581163298, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1642964581163332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581163338, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1642964581166549, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1642964581166586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642964581166593, "dur":3889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1642964581170523, "dur":274065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964580296514, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964580296515, "dur":2819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964580299337, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1642964580299518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964580308357, "dur":366720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1642964580675125, "dur":57905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964580733036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964580733046, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964580734034, "dur":100927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964580834968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964580834978, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964580837766, "dur":221365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964581059137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964581059148, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964581061096, "dur":378979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964581440080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642964581440090, "dur":4416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gorke/Desktop/Realm-Rush 2/Realm-Rush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642964581444547, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1642964581444550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642964581449040, "dur":1749, "ph":"X", "name": "ProfilerWriteOutput" }
+,
